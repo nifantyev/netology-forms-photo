@@ -1,11 +1,8 @@
 import './App.css';
-import PhotoSelector from './components/PhotoSelector';
+import PhotoManager from './components/PhotoManager';
 
 function App() {
-  const handleSelected = (dataUrls) => {
-    console.log(dataUrls);
-  };
-  return <PhotoSelector onSelected={handleSelected} />;
+  return <PhotoManager />;
 }
 
 export default App;
